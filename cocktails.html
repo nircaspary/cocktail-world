@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocktail World | Cocktails</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/cocktails.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/topcocktails.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+  </head>
+  <body>
+    <nav class="main-menu">
+      <div class="logo-container">
+        <img
+          class="logo"
+          src="./img/logoTranspert.png"
+          alt="Clanard Leather Logo"
+        />
+      </div>
+      <ul class="menu-items">
+        <li><a href="index.html" class="menu-item">HOME</a></li>
+        <li><a href="index.html" class="menu-item">ABOUT US</a></li>
+        
+        <li><a href="./cocktails.html#search.php?s=a" class="menu-item">COCKTAILS</a></li>
+      </ul>
+
+      <div class="menu-icons">
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ion-icon class="nav-icon search" name="search-outline"></ion-icon>
+        <ion-icon class="nav-icon" name="person-outline"></ion-icon>
+        <div class="favorites-container">
+        <ion-icon class="nav-icon" name="cart-outline"></ion-icon>
+        <div class="favorites-items"></div>
+      </div>
+      </div>
+      <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Search cocktail" />
+        <div class="results-container"></div>
+      </div>
+    </nav>
+
+    <section class="cocktails-section">
+      <h1>OUR COCKTAILS</h1>
+      <div class="filters-container">
+        
+        
+        <div class="filter-container">
+          <label >Search By Name</label>
+        <input type="text" class="filter by-name" placeholder='Search Cocktail'>
+        
+      </div>
+        <div class="filter-container">
+          <label >Search By ingredient</label>
+        <select class="filter by-ingredient" > 
+        </select>
+      </div>
+      <div class="filter-container">
+        <label >Search By category</label>
+        <select class="filter by-category"> 
+        </select>
+      </div>
+      <div class="filter-container">
+        <label >Search By alcoholic</label>
+        <select class="filter by-alcoholic"> 
+        </select>
+      </div>
+      <div class="filter-container">
+        <label >Search By glass</label>
+        <select class="filter by-glass"> 
+        </select>
+      </div>
+      </div>
+      <div class="cocktail-cards"></div>
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"
+      integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg=="
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./js/index.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

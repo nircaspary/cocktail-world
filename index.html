@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocktail World</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/topcocktails.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+  </head>
+  <body>
+    <nav class="main-menu">
+      <div class="logo-container">
+        <img
+          class="logo"
+          src="./img/logoTranspert.png"
+          alt="Clanard Leather Logo"
+        />
+      </div>
+      <ul class="menu-items">
+        <li><a href="#" class="menu-item">HOME</a></li>
+        <li><a href="#about" class="menu-item">ABOUT US</a></li>
+
+        <li><a href="cocktails.html#search.php?s=a" class="menu-item">COCKTAILS</a></li>
+      </ul>
+
+      <div class="menu-icons">
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ion-icon class="nav-icon search" name="search-outline"></ion-icon>
+        <ion-icon class="nav-icon" name="person-outline"></ion-icon>
+        <div class="favorites-container">
+        <ion-icon class="nav-icon" name="cart-outline"></ion-icon>
+        <div class="favorites-items"></div>
+      </div>
+      </div>
+      <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Search cocktail" />
+        <div class="results-container"></div>
+      </div>
+    </nav>
+
+    <header class="main-header">
+      <div class="main-headers-container">
+        <h1>COCkTAIL WORLD</h1>
+        <h2>BEST COCKTAIL RECIPES RESORCE</h2>
+      </div>
+    </header>
+    <section class="about" id='about'>
+      <h3>OUR STORY</h3>
+      <div class="about-content">
+        <p>
+          Eiusmod et sint ad pariatur sint consequat irure fugiat. Aliquip magna
+          aliqua esse amet anim non minim excepteur. Non magna minim et
+          consequat esse culpa eu aliqua sit sit aliqua consectetur cupidatat
+          exercitation. Voluptate nulla proident eiusmod in eu consectetur velit
+          ad. Magna nisi dolore commodo incididunt irure cillum do tempor. In
+          fugiat labore incididunt cupidatat. Aute magna sit amet sint.
+        </p>
+        <p>
+          Exercitation consectetur excepteur exercitation qui id culpa aliqua
+          quis amet nostrud aute. Dolor irure in id fugiat voluptate
+          exercitation duis quis laboris et adipisicing proident pariatur
+          tempor. Ullamco nisi labore ullamco nostrud. Sint voluptate esse
+          aliquip velit adipisicing ut excepteur ad. Magna ad cillum incididunt
+          id excepteur aliqua dolore anim sunt. Veniam dolore consequat est
+          exercitation officia officia exercitation amet nostrud cupidatat
+          aliqua. Qui quis incididunt labore laborum mollit eiusmod.
+        </p>
+        <p class="display-none-on-mobile">
+          Labore eiusmod nostrud officia ullamco deserunt voluptate. Duis nisi
+          tempor ea amet in aliqua eiusmod mollit in magna magna. Aliquip
+          deserunt ea do ad ut dolore ipsum magna adipisicing occaecat aute sit
+          ullamco. Nostrud labore aliquip ullamco cupidatat deserunt eiusmod
+          reprehenderit. Mollit commodo commodo quis aute voluptate aute ea
+          cupidatat officia et. Dolor qui nulla nulla est culpa id excepteur
+          deserunt velit esse. Pariatur voluptate amet pariatur proident eiusmod
+          deserunt velit sunt.
+        </p>
+      </div>
+    </section>
+    <section class="top-cocktails">
+      <h3 class="top-cocktails-header">TOP COCKTAILS</h3>
+
+      <!-- the card -->
+      <div class="top-cocktails-container">
+        <img src="./img/cocktail-aside.jpg" class="top-cocktails-image" />
+
+        <!-- all content inside card -->
+        <div class="top-cocktails-content">
+          <h4 class="top-cocktails-name">{NAME-TEXT}</h4>
+          <!-- big non header container -->
+          <div class="content-container">
+            <div class="inside-container ingerdients">
+              <h5 class="inside-header">ingredients</h5>
+              <div class="ing-con">
+                <!-- <p class="ingredient">2 cup gin</p>
+                <p class="ingredient">3 spoon vodka</p>
+                <p class="ingredient">4 cup sugar</p>
+                <p class="ingredient">2 gram Salt</p>
+                <p class="ingredient">1 lemon</p> -->
+              </div>
+            </div>
+            <!-- instructions container -->
+            <div class="inside-container instructions">
+              <h5 class="inside-header">instructions</h5>
+              <p class="instruction">{INSTRUCTIONS-TEXT}</p>
+            </div>
+            <div class="non-importants-container">
+              <div class="inside-container">
+                <h5 class="inside-header">glass</h5>
+                <p class="glass">{GLASS-TEXT}</p>
+              </div>
+              <div class="inside-container">
+                <h5 class="inside-header">category</h5>
+                <p class="category">{CATEGORY-TEXT}</p>
+              </div>
+              <div class="inside-container">
+                <h5 class="inside-header">alcoholic?</h5>
+                <p class="alcoholic">{ALCOHOLIC-TEXT}</p>
+              </div>
+            </div>
+          </div>
+          <!-- add favorites button -->
+          <button class="favorites-btn">
+            ADD TO FAVORITES &nbsp;
+            <span><ion-icon name="star-outline"></ion-icon></span>
+          </button>
+        </div>
+      </div>
+    
+    </section>
+
+    <!-- Modal content -->
+    <!-- <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="left">
+          <img class="item-img" />
+        </div>
+        <div class="right">
+          <h3 class="item-name-modal"></h3>
+          <p class="item-is-alcoholic">Is Alcoholic?</p>
+          <p class="item-instructions">Instructions:</p>
+          <p class="item-type">Cocktail Type</p>
+          <div class="ingredients-container"></div>
+          <button class="add-to-favorites">Add to favorites</button>
+        </div>
+      </div>
+    </div> -->
+    <!-- End of modal content -->
+     <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"
+      integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg=="
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./js/index.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

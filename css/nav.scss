@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap");
+@import url("https://use.typekit.net/zsp2nhe.css");
+// Colors:
+$black: #000000;
+$green: #c1e704;
+$red: #e70429;
+$orange: #ea7503;
+
+// Typefaces:
+$font-header: "linotype-didot", sans-serif;
+$font-body: "Inter", sans-serif;
+
+//MAIN CSS
+.main-menu {
+  display: flex;
+  background-color: #000000;
+  min-height: 8vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2% 0px 2%;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.menu-item {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: $green;
+}
+.menu-items > li {
+  width: 100%;
+  text-align: center;
+  &:hover {
+    transform: scale(1.2);
+  }
+  transition: transform 0.5s;
+}
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.logo-container {
+  height: 100%;
+  width: 10%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 55px;
+  width: auto;
+}
+.burger > div {
+  background-color: $green;
+  width: 25px;
+  height: 4px;
+  margin: 3px;
+
+  transition: all 0.3s ease;
+}
+.burger {
+  display: none;
+}
+.menu-icons {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 100%;
+  width: 10%;
+}
+.menu-icons ion-icon {
+  font-size: 25px;
+  color: $green;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+.search {
+  display: none;
+}
+
+.search-container {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  position: absolute;
+  background-color: white;
+  top: 60px;
+}
+.search-bar {
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 20px;
+}
+.result {
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  border-bottom: 1px solid black;
+  &:hover {
+    background-color: #ea7503;
+  }
+}
+.favorites-container {
+  display: block;
+  flex-direction: column;
+}
+.favorites-items {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 8vh;
+  width: 24vw;
+  background-color: #fff;
+}
+.favorite-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  > img {
+    height: 60px;
+    width: auto;
+  }
+}
+
+//MEDIA QUERIES
+@media screen and (max-width: 1200px) {
+  .nav-icon {
+    z-index: 0;
+  }
+  .main-menu {
+    padding: 0;
+    flex-direction: column;
+    background-color: black;
+  }
+  .main-menu > div {
+    padding: 1px;
+  }
+  .logo-container {
+    width: 100%;
+    justify-content: center;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.3s;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  .menu-items {
+    position: absolute;
+    display: flex;
+    right: 0px;
+    height: 100vh;
+    background-image: linear-gradient(
+      to bottom left,
+      rgb(0, 0, 0) 60%,
+      $orange
+    );
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    top: -850px;
+    transform: translateX(100%);
+    transition: all 0.8s ease;
+    border-radius: 100%;
+    z-index: 1;
+  }
+  .menu-items > li {
+    opacity: 0;
+  }
+  .menu-item {
+    font-size: 25px;
+  }
+  .menu-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 10px;
+  }
+  .search {
+    display: inline;
+  }
+  .search-bar {
+    display: none;
+    height: 30px;
+    margin-bottom: 15px;
+  }
+  .search-container {
+    width: 100%;
+  }
+  .results-container {
+    width: 80%;
+    top: 130px;
+  }
+}
+@media screen and (max-height: 500px) {
+  .main-menu {
+    height: 15vh;
+  }
+}
+
+//FOR JS FUNCTIONALITY
+.nav-active {
+  transform: translateX(0%);
+  top: 0;
+  border-radius: 0;
+}
+.overflow-hide {
+  overflow: hidden;
+}
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
+
+//KEY FRAME ANIMATIONS
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+//
+@keyframes searchWidthMobile {
+  from {
+    opacity: 0;
+    width: 0px;
+  }
+  to {
+    opacity: 1;
+    width: 80%;
+  }
+}
+
+// @keyframes searchWidth {
+//   from {
+//     opacity: 0;
+//     width: 0px;
+//   }
+//   to {
+//     opacity: 1;
+//     width: 15%;
+//     display: inline;
+//   }
+// }

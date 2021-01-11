@@ -1,0 +1,141 @@
+.cocktail-section {
+  min-height: 92vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, rgba(0, 0, 0, 0)), to(black)), url("../img/Coctail-Hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 3%, black), url("../img/Coctail-Hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 8vh;
+}
+
+.cocktail-view-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+  min-height: 80%;
+  background: black;
+  border: 1px solid #c1e704;
+  margin: 10% 0 5% 0;
+}
+
+.cocktail-view-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, rgba(0, 0, 0, 0)), to(black)), url("../img/Coctail-Hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 3%, black), url("../img/Coctail-Hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 40vh;
+  width: 100%;
+}
+
+.cocktail-view-content {
+  padding-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.cocktail-view-instructions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.cocktail-instruction {
+  font-size: 12px;
+  color: #c1e704;
+}
+
+.cocktail-view-favorites-btn {
+  background-color: #000000da;
+  border: none;
+  padding: 8px;
+  color: #c1e704;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #c1e704;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin: 10px 0 20px 0;
+  width: 200px;
+}
+
+.cocktail-view-favorites-btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media screen and (max-width: 1200px) {
+  .cocktail-view-container {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cocktail-view-container {
+    width: 95%;
+  }
+}
+/*# sourceMappingURL=cocktail.css.map */

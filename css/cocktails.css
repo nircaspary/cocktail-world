@@ -1,0 +1,129 @@
+.cocktails-section {
+  min-height: 120vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, rgba(0, 0, 0, 0)), to(black)), url("../img/Coctail-Hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 3%, black), url("../img/Coctail-Hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 8vh;
+  padding-top: 5vh;
+}
+
+.cocktail-cards {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  -ms-grid-columns: (minmax(400px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  row-gap: 100px;
+  padding: 200px 1% 200px 1%;
+}
+
+.card {
+  text-align: center;
+  width: 60%;
+  height: 400px;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.filters-container {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 30px;
+}
+
+.filter {
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 10px;
+  height: 30px;
+}
+
+.filter-container {
+  padding-bottom: 30px;
+  width: 15%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.filter-container > label {
+  color: #c1e704;
+  font-size: 12px;
+}
+
+.card {
+  background-color: #c1e704;
+}
+
+.card-body {
+  background-color: #000000;
+}
+
+.card-title {
+  color: #c1e704;
+}
+
+.btn-primary {
+  background-color: #c1e704;
+  color: #000000;
+  border-color: #c1e704;
+}
+
+@media screen and (max-width: 992px) {
+  .filters-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .filter-container {
+    padding-bottom: 30px;
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=cocktails.css.map */

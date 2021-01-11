@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap");
+@import url("https://use.typekit.net/zsp2nhe.css");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  line-height: 1.6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h1 {
+  font-family: "linotype-didot", sans-serif;
+  text-transform: uppercase;
+  color: #c1e704;
+  font-size: 8vw;
+}
+
+h2 {
+  font-family: "linotype-didot", sans-serif;
+  text-transform: uppercase;
+  color: #c1e704;
+  font-size: 3vw;
+}
+
+h3 {
+  text-align: center;
+  font-family: "linotype-didot", sans-serif;
+  text-transform: uppercase;
+  font-size: 45px;
+  margin: 50px 0px 30px 0px;
+  color: #c1e704;
+}
+
+h4 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+li {
+  list-style: none;
+}
+
+ion-icon {
+  font-size: 18px;
+}
+/*# sourceMappingURL=base.css.map */

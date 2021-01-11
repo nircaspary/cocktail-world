@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap");
+@import url("https://use.typekit.net/zsp2nhe.css");
+// Colors:
+$black: #000000;
+$green: #c1e704;
+$red: #e70429;
+$orange: #ea7503;
+
+// Typefaces:
+$font-header: "linotype-didot", sans-serif;
+$font-body: "Inter", sans-serif;
+
+.main-header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 3%, rgb(0, 0, 0)),
+    url("../img/Coctail-Hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

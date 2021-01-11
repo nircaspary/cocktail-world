@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap");
+@import url("https://use.typekit.net/zsp2nhe.css");
+// Colors:
+$black: #000000;
+$green: #c1e704;
+$red: #e70429;
+$orange: #ea7503;
+
+// Typefaces:
+$font-header: "linotype-didot", sans-serif;
+$font-body: "Inter", sans-serif;
+
+.top-cocktails {
+  position: relative;
+
+  min-height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(
+      #ea7703a6 3%,
+      rgba(0, 0, 0, 0.685),
+      rgba(0, 0, 0, 0.808)
+    ),
+    url("../img/AboutBgUpDown.jpg");
+  background-position: bottom;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  // transform: rotatex(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // flex-direction: column-reverse;
+  flex-direction: column;
+}
+.top-cocktails-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 50vh;
+  width: 70vw;
+  background-color: #e7042a60;
+  // background-color: #ea770386;
+  // transform: rotatex(180deg);
+}
+// .top-cocktails-header {
+//   // transform: rotatex(180deg);
+// }
+.top-cocktails-image {
+  height: 50vh;
+  width: auto;
+}
+.top-cocktails-name {
+  color: #c1e704;
+}
+.top-cocktails-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  align-items: center;
+
+  justify-content: space-around;
+  width: 100%;
+  // padding: 0 0 10px 0;
+}
+.content-container {
+  display: flex;
+  width: 90%;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+}
+.ingerdients {
+  width: 100%;
+}
+.instructions {
+  width: 100%;
+}
+.non-importants-container {
+  width: 100%;
+}
+.inside-header {
+  color: #c1e704;
+}
+.inside-container > p,
+.ing-con > p {
+  font-size: 12px;
+  color: #c1e704;
+  padding: 0 20px 0 20px;
+}
+
+.favorites-btn {
+  background-color: #000000da;
+  border: none;
+  padding: 10px;
+  color: #c1e704;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.6s;
+  display: flex;
+  align-items: center;
+  margin: 10px 0 10px 0;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .color-for-mobile {
+    z-index: 4;
+    background-color: black;
+  }
+  .top-cocktails-container {
+    flex-direction: column-reverse;
+    background-image: linear-gradient(#e7042a4f),
+      url("../img/cocktail-aside.jpg");
+    border-radius: 20px;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    //OR THIS OR THE COMMENTED
+    // background-color: rgba(255, 0, 0, 0);
+    // box-shadow: 0 4px 8px 0 rgba(196, 169, 169, 0.2),
+    //   0 2px 20px 0 rgba(236, 177, 177, 0.19);
+  }
+
+  .content-container {
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .top-cocktails-image {
+    display: none;
+  }
+  .ingerdients {
+    width: 100%;
+    margin: 10px 0 10px 0;
+  }
+  .instructions {
+    width: 100%;
+    margin: 10px 0 10px 0;
+  }
+  .ing-con {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .ing-con > p {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .non-importants-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .top-cocktails {
+    height: 120vh;
+    align-items: center;
+  }
+  .top-cocktails-container {
+    width: 90%;
+    background-color: #e7042a4f;
+    z-index: 5;
+  }
+  .non-importants-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
