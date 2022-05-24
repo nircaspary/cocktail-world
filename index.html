@@ -40,7 +40,17 @@
           <div class="line3"></div>
         </div>
         <ion-icon class="nav-icon search" name="search-outline"></ion-icon>
+        <div class="auth-container">
         <ion-icon class="nav-icon" name="person-outline"></ion-icon>
+        <div class="auth-container-form">
+          <label>Email</label>
+          <input type="email"/>
+          <label>password</label>
+          <input type="password"/>
+          <input type="submit" value="Login"/>
+          <a href="#">signup</a>
+        </div>
+        </div>
         <div class="favorites-container">
         <ion-icon class="nav-icon" name="cart-outline"></ion-icon>
         <div class="favorites-items"></div>
@@ -160,11 +170,15 @@
       </div>
     </div> -->
     <!-- End of modal content -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
      <script
       src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"
       integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg=="
       crossorigin="anonymous"
     ></script>
+    <script type="module" src="./js/firebase.js"></script>
     <script type="module" src="./js/index.js"></script>
     <script src="./js/nav.js"></script>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>

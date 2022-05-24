@@ -143,6 +143,25 @@ $font-body: "Inter", sans-serif;
     width: auto;
   }
 }
+.auth-container{
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  
+}
+.auth-container-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  top: 60px;
+  padding:5px;
+}
 
 //MEDIA QUERIES
 @media screen and (max-width: 1200px) {
