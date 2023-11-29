@@ -1,31 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap");
-@import url("https://use.typekit.net/zsp2nhe.css");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap");
-@import url("https://use.typekit.net/zsp2nhe.css");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap");
-@import url("https://use.typekit.net/zsp2nhe.css");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap");
-@import url("https://use.typekit.net/zsp2nhe.css");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap");
-@import url("https://use.typekit.net/zsp2nhe.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap');
+@import url('https://use.typekit.net/zsp2nhe.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap');
+@import url('https://use.typekit.net/zsp2nhe.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap');
+@import url('https://use.typekit.net/zsp2nhe.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap');
+@import url('https://use.typekit.net/zsp2nhe.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap');
+@import url('https://use.typekit.net/zsp2nhe.css');
 *,
 *::before,
 *::after {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #000000;
   line-height: 1.6;
   display: -webkit-box;
@@ -33,19 +33,19 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 h1 {
-  font-family: "linotype-didot", sans-serif;
+  font-family: 'linotype-didot', sans-serif;
   text-transform: uppercase;
   color: #c1e704;
   font-size: 8vw;
 }
 
 h2 {
-  font-family: "linotype-didot", sans-serif;
+  font-family: 'linotype-didot', sans-serif;
   text-transform: uppercase;
   color: #c1e704;
   font-size: 3vw;
@@ -53,7 +53,7 @@ h2 {
 
 h3 {
   text-align: center;
-  font-family: "linotype-didot", sans-serif;
+  font-family: 'linotype-didot', sans-serif;
   text-transform: uppercase;
   font-size: 45px;
   margin: 50px 0px 30px 0px;
@@ -84,11 +84,11 @@ ion-icon {
   background-color: #000000;
   min-height: 8vh;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0 2% 0px 2%;
   position: fixed;
   width: 100%;
@@ -114,7 +114,7 @@ ion-icon {
 
 .menu-items > li:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .menu-items {
@@ -122,8 +122,8 @@ ion-icon {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 60%;
 }
 
@@ -135,8 +135,8 @@ ion-icon {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .logo {
@@ -162,14 +162,14 @@ ion-icon {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 100%;
   width: 10%;
 }
@@ -184,7 +184,7 @@ ion-icon {
 
 .menu-icons ion-icon:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .search {
@@ -198,11 +198,11 @@ ion-icon {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .results-container {
@@ -211,11 +211,11 @@ ion-icon {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 15%;
   position: absolute;
   background-color: white;
@@ -247,8 +247,8 @@ ion-icon {
   display: block;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .favorites-items {
@@ -257,8 +257,8 @@ ion-icon {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   position: absolute;
   top: 8vh;
   width: 24vw;
@@ -270,11 +270,11 @@ ion-icon {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: black;
   width: 100%;
   padding: 10px;
@@ -293,45 +293,28 @@ ion-icon {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .auth-container-form {
-  display: none;
-  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 15%;
   position: absolute;
-  border: 1px solid #fff;
-  border-top: 0;
-  border-color: white;
-  color: #fff;
-  border-radius: 15px;
+  background-color: #cf1c1c;
   top: 60px;
-}
-
-.auth-container-form > input {
-  position: relative;
-  width: 100%;
-  margin-bottom: 3px;
-  height: 30px;
-  border-radius: 5px;
-}
-
-.auth-container-form > label {
-  position: relative;
-  font-weight: bold;
-  font-size: 12px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -342,8 +325,8 @@ ion-icon {
     padding: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     background-color: black;
   }
   .main-menu > div {
@@ -352,8 +335,8 @@ ion-icon {
   .logo-container {
     width: 100%;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   body {
     overflow-x: hidden;
@@ -367,7 +350,7 @@ ion-icon {
   }
   .burger:hover {
     -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    transform: scale(1.2);
   }
   .menu-items {
     position: absolute;
@@ -380,18 +363,18 @@ ion-icon {
     background-image: linear-gradient(to bottom left, black 60%, #ea7503);
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
     width: 100%;
     top: -850px;
     -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    transform: translateX(100%);
     -webkit-transition: all 0.8s ease;
     transition: all 0.8s ease;
     border-radius: 100%;
@@ -408,7 +391,7 @@ ion-icon {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     width: 100%;
     background-color: black;
     margin-bottom: 10px;
@@ -444,7 +427,7 @@ ion-icon {
 
 .nav-active {
   -webkit-transform: translateX(0%);
-          transform: translateX(0%);
+  transform: translateX(0%);
   top: 0;
   border-radius: 0;
 }
@@ -455,7 +438,7 @@ ion-icon {
 
 .toggle .line1 {
   -webkit-transform: rotate(-45deg) translate(-5px, 5px);
-          transform: rotate(-45deg) translate(-5px, 5px);
+  transform: rotate(-45deg) translate(-5px, 5px);
 }
 
 .toggle .line2 {
@@ -464,19 +447,19 @@ ion-icon {
 
 .toggle .line3 {
   -webkit-transform: rotate(45deg) translate(-5px, -5px);
-          transform: rotate(45deg) translate(-5px, -5px);
+  transform: rotate(45deg) translate(-5px, -5px);
 }
 
 @-webkit-keyframes navLinkFade {
   from {
     opacity: 0;
     -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    transform: translateX(100%);
   }
   to {
     opacity: 1;
     -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
   }
 }
 
@@ -484,12 +467,12 @@ ion-icon {
   from {
     opacity: 0;
     -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    transform: translateX(100%);
   }
   to {
     opacity: 1;
     -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
   }
 }
 
@@ -518,8 +501,8 @@ ion-icon {
 .main-header {
   height: 100vh;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, rgba(0, 0, 0, 0)), to(black)), url("../img/Coctail-Hero.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0) 3%, black), url("../img/Coctail-Hero.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, rgba(0, 0, 0, 0)), to(black)), url('../img/Coctail-Hero.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 3%, black), url('../img/Coctail-Hero.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -527,11 +510,11 @@ ion-icon {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -542,18 +525,19 @@ ion-icon {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-bottom: 5vh;
   background-color: #ea7703a9;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, black), color-stop(rgba(0, 0, 0, 0.808)), color-stop(rgba(0, 0, 0, 0.685)), to(#ea7703a6)), url("../img/AboutBg.jpg");
-  background-image: linear-gradient(black 3%, rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.685), #ea7703a6), url("../img/AboutBg.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, black), color-stop(rgba(0, 0, 0, 0.808)), color-stop(rgba(0, 0, 0, 0.685)), to(#ea7703a6)),
+    url('../img/AboutBg.jpg');
+  background-image: linear-gradient(black 3%, rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.685), #ea7703a6), url('../img/AboutBg.jpg');
   background-position: top;
   background-attachment: scroll;
   background-size: cover;
@@ -567,14 +551,14 @@ ion-icon {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   color: #c1e704;
 }
@@ -594,8 +578,8 @@ ion-icon {
   position: relative;
   min-height: 80vh;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, #ea7703a6), color-stop(rgba(0, 0, 0, 0.685)), to(rgba(0, 0, 0, 0.808))), url("../img/AboutBgUpDown.jpg");
-  background-image: linear-gradient(#ea7703a6 3%, rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.808)), url("../img/AboutBgUpDown.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, #ea7703a6), color-stop(rgba(0, 0, 0, 0.685)), to(rgba(0, 0, 0, 0.808))), url('../img/AboutBgUpDown.jpg');
+  background-image: linear-gradient(#ea7703a6 3%, rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.808)), url('../img/AboutBgUpDown.jpg');
   background-position: bottom;
   background-attachment: scroll;
   background-size: cover;
@@ -604,24 +588,24 @@ ion-icon {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .top-cocktails-container {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -645,14 +629,14 @@ ion-icon {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   min-height: 50vh;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -662,11 +646,11 @@ ion-icon {
   display: flex;
   width: 90%;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -706,14 +690,14 @@ ion-icon {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 10px 0 10px 0;
 }
 
 .favorites-btn:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 1200px) {
@@ -724,10 +708,10 @@ ion-icon {
   .top-cocktails-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#e7042a4f)), url("../img/cocktail-aside.jpg");
-    background-image: linear-gradient(#e7042a4f), url("../img/cocktail-aside.jpg");
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e7042a4f)), url('../img/cocktail-aside.jpg');
+    background-image: linear-gradient(#e7042a4f), url('../img/cocktail-aside.jpg');
     border-radius: 20px;
     background-position: center;
     background-attachment: scroll;
@@ -736,14 +720,14 @@ ion-icon {
   }
   .content-container {
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .top-cocktails-image {
     display: none;
@@ -759,15 +743,15 @@ ion-icon {
   .ing-con {
     width: 100%;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
   .ing-con > p {
     padding: 0;
@@ -780,14 +764,14 @@ ion-icon {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
@@ -795,8 +779,8 @@ ion-icon {
   .top-cocktails {
     height: 120vh;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .top-cocktails-container {
     width: 90%;
@@ -809,14 +793,14 @@ ion-icon {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
@@ -827,13 +811,13 @@ ion-icon {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, rgba(0, 0, 0, 0)), to(black)), url("../img/Coctail-Hero.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0) 3%, black), url("../img/Coctail-Hero.jpg");
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, rgba(0, 0, 0, 0)), to(black)), url('../img/Coctail-Hero.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 3%, black), url('../img/Coctail-Hero.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -846,12 +830,12 @@ ion-icon {
   display: grid;
   justify-items: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 100%;
   height: 100%;
-  -ms-grid-columns: (minmax(400px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  -ms-grid-columns: (minmax(400px, 1fr)) [auto-fill];
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   row-gap: 100px;
   padding: 200px 1% 200px 1%;
 }
@@ -868,14 +852,14 @@ ion-icon {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .filters-container {
@@ -884,11 +868,11 @@ ion-icon {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 90%;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   min-height: 30px;
 }
 
@@ -908,8 +892,8 @@ ion-icon {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -940,8 +924,8 @@ ion-icon {
   .filters-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .filter-container {
     padding-bottom: 30px;
@@ -956,16 +940,16 @@ ion-icon {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, rgba(0, 0, 0, 0)), to(black)), url("../img/Coctail-Hero.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0) 3%, black), url("../img/Coctail-Hero.jpg");
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, rgba(0, 0, 0, 0)), to(black)), url('../img/Coctail-Hero.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 3%, black), url('../img/Coctail-Hero.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -978,14 +962,14 @@ ion-icon {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 40%;
   min-height: 80%;
   background: black;
@@ -999,16 +983,16 @@ ion-icon {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, rgba(0, 0, 0, 0)), to(black)), url("../img/Coctail-Hero.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0) 3%, black), url("../img/Coctail-Hero.jpg");
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, rgba(0, 0, 0, 0)), to(black)), url('../img/Coctail-Hero.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 3%, black), url('../img/Coctail-Hero.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1023,7 +1007,7 @@ ion-icon {
   display: flex;
   width: 100%;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   text-align: center;
 }
 
@@ -1033,16 +1017,16 @@ ion-icon {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 90%;
   text-align: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 50px;
 }
 
@@ -1064,18 +1048,18 @@ ion-icon {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   border: 1px solid #c1e704;
   -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   margin: 10px 0 20px 0;
   width: 200px;
 }
 
 .cocktail-view-favorites-btn:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 1200px) {

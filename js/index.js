@@ -2,7 +2,6 @@ import Cocktail from './models/Cocktail.js';
 import Search from './models/Search.js';
 import Filters from './models/Filters.js';
 import User from './models/User.js';
-
 import * as topCocktailsView from './views/topCocktailsView.js';
 import * as SearchView from './views/searchView.js';
 import * as filtersView from './views/filtersView.js';
@@ -10,7 +9,9 @@ import * as cocktailCardsView from './views/cocktailCardsView.js';
 import * as cocktailView from './views/cocktailView.js';
 import * as favoritesView from './views/favoritesView.js';
 import { elements } from './views/base.js';
-import { getDocuments } from './firebase';
+
+const user = new User('nirs', 'cass', 'nircss@gmail.com', 'i3rtbblfsmh');
+user.createUser();
 
 // ! START BY GETTING FILTERS
 const createFilters = () => {
@@ -73,6 +74,7 @@ elements.resultsContainer.addEventListener('click', (e) => {
 //Clear Auto Complete container on body click
 elements.body.addEventListener('click', (e) => {
   SearchView.clearContainer();
+  console.log(e.target.className);
   if (e.target.className !== 'nav-icon md hydrated') favoritesView.clearContainer();
 });
 
