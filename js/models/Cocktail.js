@@ -1,3 +1,4 @@
+import axios from 'axios';
 class Cocktail {
   constructor(id) {
     this.id = id;
@@ -5,20 +6,11 @@ class Cocktail {
   getCocktail = async () => {
     try {
       //Get Data Request
-      const res = await axios.get(
-        `https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${this.id}`
-      );
+      const res = await axios.get(`https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${this.id}`);
 
       //Data Destructuring
-      const {
-        idDrink,
-        strDrink,
-        strCategory,
-        strAlcoholic,
-        strGlass,
-        strInstructions,
-        strDrinkThumb,
-      } = res.data.drinks[0];
+      const { idDrink, strDrink, strCategory, strAlcoholic, strGlass, strInstructions, strDrinkThumb } = res.data.drinks[0];
+
       //Object Define
       this.id = idDrink;
       this.name = strDrink;
@@ -40,14 +32,11 @@ const createIngredientsFromResponse = (res) => {
   const measures = [];
   const combined = [];
   for (let e in res) {
-    if (e.includes("strIngredient") && res[e] !== null)
-      ingredients.push(res[e]);
-    if (e.includes("strMeasure") && res[e] !== null) measures.push(res[e]);
+    if (res[e] && e.includes('strIngredient')) ingredients.push(res[e]);
+    if (res[e] && e.includes('strMeasure')) measures.push(res[e]);
   }
   for (let i = 0; i < ingredients.length; i++) {
-    measures[i] == undefined
-      ? combined.push(`${ingredients[i]}`)
-      : combined.push(`${measures[i]} ${ingredients[i]}  `);
+    !measures[i] ? combined.push(`${ingredients[i]}`) : combined.push(`${measures[i]} ${ingredients[i]}  `);
   }
   return combined;
 };

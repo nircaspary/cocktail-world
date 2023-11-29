@@ -31,6 +31,7 @@
         <li><a href="#about" class="menu-item">ABOUT US</a></li>
 
         <li><a href="cocktails.html#search.php?s=a" class="menu-item">COCKTAILS</a></li>
+        
       </ul>
 
       <div class="menu-icons">
@@ -40,16 +41,32 @@
           <div class="line3"></div>
         </div>
         <ion-icon class="nav-icon search" name="search-outline"></ion-icon>
-        <ion-icon class="nav-icon" name="person-outline"></ion-icon>
+       
+        <div class="auth-container">
+          <ion-icon class="nav-icon auth" name="person-outline"></ion-icon>
+          <form class="auth-container-form">
+            <label for="email">Email</label>
+            <input type="text" name="email">
+            <label for="password">Password</label>
+            <input type="password" name="password">
+            <input type="submit" name="login" value="Login">
+            <a href="http://">Signup</a>
+          </form>
+        </div>
+        
+        
         <div class="favorites-container">
         <ion-icon class="nav-icon" name="cart-outline"></ion-icon>
         <div class="favorites-items"></div>
       </div>
       </div>
+      
+     
       <div class="search-container">
         <input type="text" class="search-bar" placeholder="Search cocktail" />
         <div class="results-container"></div>
       </div>
+      
     </nav>
 
     <header class="main-header">
@@ -160,11 +177,8 @@
       </div>
     </div> -->
     <!-- End of modal content -->
-     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"
-      integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg=="
-      crossorigin="anonymous"
-    ></script>
+    
+     
     <script type="module" src="./js/index.js"></script>
     <script src="./js/nav.js"></script>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>

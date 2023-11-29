@@ -63,6 +63,12 @@ h5 {
 
 li {
   list-style: none;
+  text-decoration: none;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
 }
 
 ion-icon {

@@ -1,4 +1,4 @@
-import elements from "./base.js";
+import elements from './base.js';
 
 export const favoritesList = (favoritesList) => {
   clearContainer();
@@ -15,5 +15,5 @@ export const favoritesList = (favoritesList) => {
   }
 };
 export const clearContainer = () => {
-  elements.favoritesContainer.innerHTML = "";
+  elements.favoritesContainer.innerHTML = '';
 };

@@ -1,0 +1,25 @@
+{
+  "name": "the-cocktail-api",
+  "version": "1.0.0",
+  "description": "Cocktail api website",
+  "default": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node run index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nircaspary/cocktail-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nircaspary/cocktail-world/issues"
+  },
+  "homepage": "https://github.com/nircaspary/cocktail-world#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "firebase": "^9.8.2",
+    "sass": "^1.52.1"
+  }
+}
